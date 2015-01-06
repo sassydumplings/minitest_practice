@@ -3,4 +3,4 @@ For example, the standard fizzbuzz algorithm was built test first
 
 To run a file:
 
-ruby <filename>
+ruby filename.rb
