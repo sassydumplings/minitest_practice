@@ -4,6 +4,10 @@ require 'minitest/autorun'
 
 # memo-ized Fibonacci
 # once you calculate a value store it
+#
+#  Standard Fibonacci is recursive - BigO is N^2
+#  Memoized Fibonacci much faster with lookup feature
+#  Only calculate once for each n - BigO is N?
 
 $known = {}
 def fib_calc(n)
