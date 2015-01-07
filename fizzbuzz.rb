@@ -16,7 +16,7 @@ end
 
 describe "fizzbuzz_output" do
   it "should return the number" do
-    fizzbuzz(87).must_equal 87
+    fizzbuzz(89).must_equal 89
   end
   it "should return FizzBuzz if divisible by both 3 and 5" do
     fizzbuzz(15).must_equal "FizzBuzz"
